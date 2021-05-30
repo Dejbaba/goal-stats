@@ -36,7 +36,7 @@ detailsBottomSheet(BuildContext context, String leagueId){
                   children: [
                     Padding(
                       padding: EdgeInsets.only(top: height(context) / 50),
-                      child: Text("Top 20", style: TextStyle(
+                      child: Text("Top 20(goals + penaalties scored)", style: TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.w800,
                         fontSize: width(context) / 25
